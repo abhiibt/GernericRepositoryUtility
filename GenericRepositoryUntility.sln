@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntility", "GenericRepositoryUntility\GenericRepositoryUntility.csproj", "{4D89F69F-885B-4475-AC1B-676866369935}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntility", "src\GenericRepositoryUntility\GenericRepositoryUntility.csproj", "{4D89F69F-885B-4475-AC1B-676866369935}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA6524F1-C6F9-40BD-A994-7789BDC7EF52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{591EFAFB-B484-4923-A45E-555BD53FA9DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntilityTests.Integration", "GenericRepositoryUntility\GenericRepositoryUntilityTests\GenericRepositoryUntilityTests.Integration.csproj", "{D49D6957-9D80-4869-B069-7635DE01E967}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntilityTests.Integration", "tests\GenericRepositoryUntilityTests\GenericRepositoryUntilityTests.Integration.csproj", "{D49D6957-9D80-4869-B069-7635DE01E967}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{0E955E36-8D58-437C-B2AA-7EBCB4AFD75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.DataAccessLayer", "Example.DataAccessLayer\Example.DataAccessLayer.csproj", "{533F8DD6-AA38-4AE8-B3DF-F10736307334}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.DataAccessLayer", "Example\Example.DataAccessLayer\Example.DataAccessLayer.csproj", "{533F8DD6-AA38-4AE8-B3DF-F10736307334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

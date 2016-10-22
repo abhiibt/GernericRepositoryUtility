@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Example.DataAccessLayer;
 using Example.DataAccessLayer.DbModel;
 using Ninject;
@@ -19,6 +20,18 @@ namespace GenericRepositoryUntilityTests
                 studentRepository.Save();
             }
         }
+
+        [Test]
+        public void SubjectRepositoryTest_Get_Subjects()
+        {
+            using (var kernel = new StandardKernel(new ExampleNinjectModule()))
+            {
+                var studentRepository = kernel.Get<SubjectRepository>();
+                var subjects = studentRepository.GetAll();
+                Console.WriteLine(subjects);
+            }
+        }
+
         [Test]
         public void StudentRepositoryTest_Add_Student()
         {

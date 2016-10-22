@@ -64,11 +64,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Example.DataAccessLayer\Example.DataAccessLayer.csproj">
+    <ProjectReference Include="..\..\Example\Example.DataAccessLayer\Example.DataAccessLayer.csproj">
       <Project>{533f8dd6-aa38-4ae8-b3df-f10736307334}</Project>
       <Name>Example.DataAccessLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GenericRepositoryUntility.csproj">
+    <ProjectReference Include="..\..\src\GenericRepositoryUntility\GenericRepositoryUntility.csproj">
       <Project>{4d89f69f-885b-4475-ac1b-676866369935}</Project>
       <Name>GenericRepositoryUntility</Name>
     </ProjectReference>
