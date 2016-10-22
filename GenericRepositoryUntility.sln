@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntility", "GenericRepositoryUntility\GenericRepositoryUntility.csproj", "{4D89F69F-885B-4475-AC1B-676866369935}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA6524F1-C6F9-40BD-A994-7789BDC7EF52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{591EFAFB-B484-4923-A45E-555BD53FA9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryUntilityTests.Integration", "GenericRepositoryUntility\GenericRepositoryUntilityTests\GenericRepositoryUntilityTests.Integration.csproj", "{D49D6957-9D80-4869-B069-7635DE01E967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{0E955E36-8D58-437C-B2AA-7EBCB4AFD75B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.DataAccessLayer", "Example.DataAccessLayer\Example.DataAccessLayer.csproj", "{533F8DD6-AA38-4AE8-B3DF-F10736307334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +23,21 @@ Global
 		{4D89F69F-885B-4475-AC1B-676866369935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D89F69F-885B-4475-AC1B-676866369935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D89F69F-885B-4475-AC1B-676866369935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49D6957-9D80-4869-B069-7635DE01E967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49D6957-9D80-4869-B069-7635DE01E967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49D6957-9D80-4869-B069-7635DE01E967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49D6957-9D80-4869-B069-7635DE01E967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533F8DD6-AA38-4AE8-B3DF-F10736307334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533F8DD6-AA38-4AE8-B3DF-F10736307334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533F8DD6-AA38-4AE8-B3DF-F10736307334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533F8DD6-AA38-4AE8-B3DF-F10736307334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D89F69F-885B-4475-AC1B-676866369935} = {CA6524F1-C6F9-40BD-A994-7789BDC7EF52}
+		{D49D6957-9D80-4869-B069-7635DE01E967} = {591EFAFB-B484-4923-A45E-555BD53FA9DB}
+		{533F8DD6-AA38-4AE8-B3DF-F10736307334} = {0E955E36-8D58-437C-B2AA-7EBCB4AFD75B}
 	EndGlobalSection
 EndGlobal
