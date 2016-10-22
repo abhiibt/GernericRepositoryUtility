@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GenericRepositoryUntility
 {
-    public class Class1
+    public class IRepository
     {
     }
 }
